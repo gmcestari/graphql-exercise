@@ -30,7 +30,9 @@ Query 2:
     name
     startDate
     frequency
-    ownerId 
+    owner {
+      id
+    }
   }
 }
 ```
